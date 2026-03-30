@@ -1,93 +1,292 @@
-PL-DevOps-MultiCloud
+#########################
+Day - 1 | 30th Mar. 2025
+#########################
 
-7:30-9:30 AM IST
-
-####################
-Day-0 24th Mar. 2026 		- Orientation
-####################
-
-
-
-
-####################
-Day-1 25th Mar. 2026
-####################
-
-Module 1 - DevOps Tools stack!
-
-	- Introduction to DevOps 
+	Module 1 - Introduction to DevOps :::	
 	
-	- Lab Requirements 
-		- Pre-requisites
+	What is DevOps ????
+	
+	- Dev + Operations!
+	
+	IT Services :
+	
+	Software Applications :
+	
+		- Desktop Applications
+		- Web Applications
+		- Mobile Applications
+		- Embedded Applications
+		- AI & ML Applications
+		
+	SDLC Process :: Software Development Life Cycle:
+	
+		- Requirement Analysis 
+		- Design & Documentations 
+		- Code & Development 
+		- Testing 
+		- Implement to Production
+		- Monitor/Maintain
+	
+	- Desktop Application ::
+	
+		- Super-Market Billing Management System
+			- Analysis :
+				Functions/Modules :
+					- User Interface 
+					- Invetory Management
+					- Customer Database 
+					- Billing 
+					- Payment : CARD/CASH
+	
+			- Document
+			- Coding 
+			- Testing 
+			- Implement to Production
 			
-			1. Create a free tier account on AWS Cloud 
-			
-				- https://aws.amazon.com/console/
-				
-					- Active Email_ID 
-					- Active Mobile Number 
-					- Active Credit/Debit Card Number enable with International Transaction
-					
-					- PAN Card Number
-					
-				- Login to AWS Management Console using root_user_id(Email_ID) & password
-					- Create MFA - Two-way Authentication 
-					
-						- Install google authenticator App on your mobile phone
-						
-				- Create AWS EC2 Instances - Virtual Machines (Lab Environments)
-				
-			2. GitHub Account 	# Used to maintain the Remote Repositories(Files & Folders).
-				
-				- https://github.com/
-				
-				- https://github.com/PL-DevOps-Cloud-2503/Training_Documents
-
-					- Fork this Repository
-					
-			3. DockerHub Account
-			
-				- https://hub.docker.com/  # Create using existing Github 
-				
-			4. Install MobaXTerm on Local Machine - Windows Users
-			
-				- SSH Agent to connect to Remote Servers.
-				
-				- https://mobaxterm.mobatek.net/download-home-edition.html  
-					# Choose Installer Edition.
-					# Right click & Extract 
-					# Goto to the Folder & Run the Exec.
-					
-			5. Install Visual Studio Code on Local Machine 	- Develop the Source Code.
-				
-				- https://code.visualstudio.com/download				
-			
-			6. Install git client on Local Machine
-			
-				- https://git-scm.com/install/
-			
-				- Version Control System
-				
-					- Distributed VCS 
-					
-						- Remote Repositories 	- Setup Github Account & Create Remote Repositories 
-						
-						- Local Repositories	- Install Git Client on Local Machine
-												- https://git-scm.com/install/windows
-													- Choose Standalone Installer 
-														- Git for Windows/x64 Setup.
-															- Run this Exec. with the default option
-															
-													- GIT BASH	# Based on Linux Users
-													- GIT CMD	# Based on Window Users
-													- GIT GUI
+	- Waterfall Model :
+	
+		- It is linear is fashion 
+		- It strictly follows top-down approach 
+		- It was used for developing the Monolith Applications
 
 
-												- Open Git Bash Terminal 
-													- git --version
-													
-													
-			7. Install Terraform on Local Machine
-																
-				# https://developer.hashicorp.com/terraform/install
-					- Choose AMD64 for Windows
+	- Desktop Application ::
+	
+		- Super-Market Billing Management System
+			- Analysis :
+				Functions/Modules :
+					- User Interface 
+					- Invetory Management
+					- Customer Database 
+					- Billing 
+					- Payment : CARD/CASH
+						+++ Online Payment & UPI Payment
+
+	Core Project:
+	
+		- Requirement Analysis 			-> 12 Months 
+		- Design & Documentations 
+		- Code & Development 				-> 7th Month 
+		- Testing 
+		- Implement to Production
+		- Monitor/Maintain
+		
+	Enhancement Project:
+	
+		- Requirement Analysis 			+++ Online Payment & UPI Payment
+		- Design & Documentations 
+		- Code & Development 				
+		- Testing 
+		- Implement to Production
+		- Monitor/Maintain
+		
+
+
+	AGILE Methodlogies :::
+	
+		In AGILE Methodlogies:
+		 Create Iterations:
+			
+
+		Iteration 1: User Interface 
+		
+			- Requirement Analysis 		
+			- Design & Documentations 
+			- Code & Development 				
+			- Testing 
+			- Implement to Production with proper approvals
+		
+		Iteration 2: Invetory Management 
+		
+			- Requirement Analysis 		
+			- Design & Documentations 
+			- Code & Development 				
+			- Testing 
+			- Implement to Production with proper approvals	
+
+		Iteration 3: Customer Database 
+		
+			- Requirement Analysis 		
+			- Design & Documentations 
+			- Code & Development 				
+			- Testing 
+			- Implement to Production with proper approvals			
+		
+
+		'n'th Iteration : +++ Online Payment & UPI Payment
+		
+			- Requirement Analysis 		
+			- Design & Documentations 
+			- Code & Development 				
+			- Testing 
+			- Implement to Production with proper approvals
+			
+			
+		Using AGILE Methodlogies :
+		
+			we can achieve :
+			
+				- Continuous Development
+				- Continuous Integration
+				- Continuous Testing 
+				- Continuous Delivery 
+					- Is a process to release the changes to production environments with Manual approvals.
+				
+			we cannot achieve :
+			
+				- Continuous Deployment
+					- Is a process to release the changes to production environments without Manual approvals.
+					
+	- DevOps ::::
+	
+		DevOps is Software Development Strategy/Process, which help to promote collaboration between the teams like Development Team and Operations Team to achieve Continuous Development, Continuous Integration, Continuous Testing, Continuous Delivery, Continuous Deployment and Continuous Monitoring in more automated fashion.
+		
+		
+	- How to Implement DevOps ???
+	
+		Team :
+		
+			DevOps Team 
+				Infra-Structure Management Team
+				Application Development Team 
+				Testing Team 
+				Release Management Team 
+				Production Support Team 
+				Production Monitoring Team 
+				IT Security Team 
+				
+				
+		Environments :
+		
+			Non-Production												Production Environment
+
+				- Dev Environment
+				
+				- Build Environment
+				
+				- Test 
+					QA Environment
+					
+					UAT Environment			------------------>				Production Servers
+	
+	
+		Application Architecture :
+		
+			- Monolith Application Architecture:
+			
+				- It is tightly coupled in nature
+				- All the Functions/Modules/Dependencies are tightly coupled 
+				- With this only Continuous Delivery is possible. We cannot achieve Continuous Deployment
+			
+			- Micro-Service Based Application Architecture:
+			
+				- It is loosely coupled Application Architecture
+				- Each Function/Module are considered as Micro-Service
+				- Each Micro-Service is independently developed, testing and implement to production
+				- With this we can achieve Continuous Deployment
+				
+	
+		DevOps Stages :
+		
+			- Continuous Development :
+				
+				- It is the capabilibity of the Application Development Team to Continuously develop the changes and integrate for further testing and implementation.
+				
+				- It aim to improve the Developers' Productivity.
+				
+				Developer : 
+				
+				Role of any Developer ??? - Create Source Code
+				
+					- Create Source Code
+					
+					- Manual Build the Code - Compile & Create Artifacts(Binaries - *.war,*.jar,*.exec,*.dll,*.pkl)
+					- Manual Unit Testing 
+					- Manual Promote the Changes to Test Environment
+					- Manual Notify the Testing Team - Thru Email
+					
+				Using DevOps Approach :::
+				
+					- Create Source Code
+					- Save the Source Code in Source Code Repositories like github 
+					
+					DevOps can Automate :
+					
+					- Build the Code - Compile & Create Artifacts(Binaries - *.war,*.jar,*.exec,*.dll,*.pkl)
+					- Unit Testing 
+					- Promote the Changes to Test Environment
+					- Notify the Testing Team - Thru Email
+
+				Tools :
+				
+					- IDEs - Integrated Development Environment - Eclipse, Visual Studio Code, Visual Studio, Pycharm
+					- Git, GitHub
+							
+				
+			- Continuous Integration ::: CI
+
+				- It is the capabilibity of the Application Development Team to Continuously Integrate the changes for further testing and implementation.			
+
+					DevOps can Automate :
+					
+					- Build the Code - Compile & Create Artifacts(Binaries - *.war,*.jar,*.exec,*.dll,*.pkl)
+					- Unit Testing 
+					- Promote the Changes to Test Environment
+					- Notify the Testing Team - Thru Email
+					
+				Tools :
+					- IDEs - Integrated Development Environment - Eclipse, Visual Studio Code, Visual Studio, Pycharm
+					- Git, GitHub
+					- Jenkins,Build Tools(Maven),github-actions,Docker,Kubernetes,Ansible					
+
+					
+			- Continuous Testing :::
+			
+				- It is the capabilibity of the Testing Team to Continuously Test the changes and produce the Test Reports to allow or deny the further deployments.
+				
+				Tools :
+				
+					- TestNG,Selenium,Selenium-Grid 
+					- Jenkins 
+			
+			
+			- Continuous Delivery / Deployment
+
+				- Continuous Delivery: 
+					- Is a process to release the changes to production environments with Manual approvals.	
+					- Continuous Delivery Always expects Manual Intervension/Approvals 
+					- This leads to Downtime during production release
+
+				Tools :::
+				
+					- Jenkins 
+					- Docker, Kubernetes(Optional)
+					- Ansible
+					
+				- Continuous Deployment:
+					- Is a process to release the changes to production environments without Manual approvals.
+					- Continuous Deployment Never expect any Manual Approvals.
+					- Without any Downtime we can deploy the changes to production
+					- ZERO Downtime.
+					
+					- To Achieve Continuous Deployment, we should have Micro-Service based Application Architecture.
+					
+				Tools :::
+				
+					- Jenkins 
+					- Docker, Kubernetes
+					- Ansible
+
+Next :::
+
+			- Continuous Delivery & Deployment with Examples:
+			
+			- Continuous Monitoring
+			
+			- DevOps LifeCycle
+			
+			- CICD Pipelines 
+
+			- Lab Requirement
+		
+	
